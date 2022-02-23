@@ -1,0 +1,6 @@
+.lead {
+  border: 1px solid red;
+  max-width: 984px;
+  margin: 3.5rem auto 0;
+  padding: 0 3rem;
+}
