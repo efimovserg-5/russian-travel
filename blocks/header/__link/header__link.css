@@ -1,5 +1,4 @@
 .header__link {
-  border: 1px solid red;
   text-decoration: none;
   color: #FFFFFF;
   font-size: 24px;
@@ -11,3 +10,9 @@
 .header__link:hover {
   opacity: .5;
 }
+
+@media screen and (max-width: 768px) {
+  .header__link {
+    font-size: calc(1.125rem + (100vw - 320px) / (768 - 320) * (24 - 18));
+  }
+} 

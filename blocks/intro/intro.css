@@ -2,8 +2,6 @@
   max-width: 984px;
   margin: 6rem auto 0;
   padding: 0 3rem;
-  border: 1px solid red;
-  
 }
   
 @media screen and (max-width: 1024px) {
